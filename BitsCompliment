@@ -1,5 +1,5 @@
 /**
-  Solution to hacker rank's bit flipping problem, e.g. algo to turn a long value to its bit-compliment (8 = 100 into 0111 = 7 to use half-byte number as sample).  
+  Solution to hacker rank's bit flipping problem, e.g. algo to turn a long value to its bit-compliment (8 = 1000 into 0111 = 7 to use half-byte number as sample).  
  */
 public class BitsCompliment {
     public static long flippingBits(long n) {
