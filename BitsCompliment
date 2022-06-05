@@ -7,46 +7,6 @@ public class BitsCompliment {
         // long reducted = n;
         long answer = 0;
  
-        // an old style pre-functional way
-        // StringBuffer sb = new StringBuffer();
-        // Queue<Character> bitStore = new LinkedList<>();
-        // do {
-        //     if (reducted % 2 == 0) {
-        //         // multiple of two, e.g. right digit is 0 -> add 1
-        //         bitStore.add('1');
-        //         // answer <<= 1;    
-        //     } else {
-        //         // not multiple of two, e.g. right digit is 1 -> add 0
-        //         bitStore.add('0');
-        //     }
-        //     reducted >>= 1; 
-        // } while (reducted > 0);
-        
-        // while(bitStore.size() < 32) {
-        //     // left padd with ones, the compliment of zeroes
-        //     bitStore.add('1');
-        // }
-        
-        // // long answer = 0;
-        // if (bitStore.size() == 0) {
-        //     return 0;
-        // }
-        
-        // answer += (bitStore.poll() == '0' ? 0 : 1); // right most bit is added
-        // int power = 1;
-        // while (bitStore.size() > 0) {
-        //     if (bitStore.poll() == '1') {
-        //         answer += Math.pow(2, power);
-        //     }    
-        //     power++;
-        // }
-  
-  /*
-        long reducted = n;
-        long answer == reducted << 1
-  */
-        
-        // functional
             if (n % 2 == 0) {
                 answer += 1;
             }
