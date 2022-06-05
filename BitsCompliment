@@ -36,9 +36,7 @@ public class BitsCompliment {
         // int power = 1;
         // while (bitStore.size() > 0) {
         //     if (bitStore.poll() == '1') {
-        //         // System.err.println("BINGO");
         //         answer += Math.pow(2, power);
-        //         // System.err.println(answer);
         //     }    
         //     power++;
         // }
