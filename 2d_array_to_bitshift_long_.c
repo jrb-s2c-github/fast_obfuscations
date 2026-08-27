@@ -5,6 +5,7 @@
  *   [ 2 1 0 ]  ==> 001 100 010 001 010 100 010 001 100
  *   [ 1 2 0 ]
  *
+ * Do you see it?
  */
 long new_state = 0;
 for (int i = 0; i < dimension; i++) {
